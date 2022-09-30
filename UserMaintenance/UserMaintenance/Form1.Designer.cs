@@ -31,9 +31,7 @@ namespace UserMaintenance
         {
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.lblLastName = new System.Windows.Forms.Label();
-            this.lblFirstName = new System.Windows.Forms.Label();
             this.btnAdd = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -52,13 +50,6 @@ namespace UserMaintenance
             this.textBox1.Size = new System.Drawing.Size(221, 20);
             this.textBox1.TabIndex = 1;
             // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(276, 39);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(221, 20);
-            this.textBox2.TabIndex = 2;
-            // 
             // lblLastName
             // 
             this.lblLastName.AutoSize = true;
@@ -68,18 +59,9 @@ namespace UserMaintenance
             this.lblLastName.TabIndex = 3;
             this.lblLastName.Text = "label1";
             // 
-            // lblFirstName
-            // 
-            this.lblFirstName.AutoSize = true;
-            this.lblFirstName.Location = new System.Drawing.Point(219, 42);
-            this.lblFirstName.Name = "lblFirstName";
-            this.lblFirstName.Size = new System.Drawing.Size(35, 13);
-            this.lblFirstName.TabIndex = 4;
-            this.lblFirstName.Text = "label2";
-            // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(222, 76);
+            this.btnAdd.Location = new System.Drawing.Point(222, 39);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(275, 32);
             this.btnAdd.TabIndex = 5;
@@ -93,9 +75,7 @@ namespace UserMaintenance
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(509, 305);
             this.Controls.Add(this.btnAdd);
-            this.Controls.Add(this.lblFirstName);
             this.Controls.Add(this.lblLastName);
-            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.listBox1);
             this.Name = "Form1";
@@ -109,9 +89,7 @@ namespace UserMaintenance
 
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label lblLastName;
-        private System.Windows.Forms.Label lblFirstName;
         private System.Windows.Forms.Button btnAdd;
     }
 }
