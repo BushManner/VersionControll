@@ -36,6 +36,7 @@ namespace Week06
             this.btnCar = new System.Windows.Forms.Button();
             this.btnBall = new System.Windows.Forms.Button();
             this.lblNext = new System.Windows.Forms.Label();
+            this.btnColorPicker = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // mainPanel
@@ -82,17 +83,28 @@ namespace Week06
             // lblNext
             // 
             this.lblNext.AutoSize = true;
-            this.lblNext.Location = new System.Drawing.Point(257, 173);
+            this.lblNext.Location = new System.Drawing.Point(380, 173);
             this.lblNext.Name = "lblNext";
             this.lblNext.Size = new System.Drawing.Size(68, 13);
             this.lblNext.TabIndex = 3;
             this.lblNext.Text = "Coming next:";
+            // 
+            // btnColorPicker
+            // 
+            this.btnColorPicker.BackColor = System.Drawing.Color.Red;
+            this.btnColorPicker.Location = new System.Drawing.Point(256, 150);
+            this.btnColorPicker.Name = "btnColorPicker";
+            this.btnColorPicker.Size = new System.Drawing.Size(107, 59);
+            this.btnColorPicker.TabIndex = 4;
+            this.btnColorPicker.UseVisualStyleBackColor = false;
+            this.btnColorPicker.Click += new System.EventHandler(this.btnColorPicker_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(711, 450);
+            this.Controls.Add(this.btnColorPicker);
             this.Controls.Add(this.lblNext);
             this.Controls.Add(this.btnBall);
             this.Controls.Add(this.btnCar);
@@ -112,6 +124,7 @@ namespace Week06
         private System.Windows.Forms.Button btnCar;
         private System.Windows.Forms.Button btnBall;
         private System.Windows.Forms.Label lblNext;
+        private System.Windows.Forms.Button btnColorPicker;
     }
 }
 
