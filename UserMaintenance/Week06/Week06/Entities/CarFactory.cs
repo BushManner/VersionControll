@@ -5,13 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using Week06.Abstractions;
 
+
 namespace Week06.Entities
 {
-    public class BallFactory : IToyFactory
+    class CarFactory : IToyFactory
     {
         public Toy CreateNew()
         {
-            return new Ball();
+            return new Car();
         }
     }
 }
