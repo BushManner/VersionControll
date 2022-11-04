@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Week06.Entities
+namespace Week06.Abstractions
 {
     public abstract class Toy : Label
     {
