@@ -1,5 +1,4 @@
-﻿
-namespace WindowsFormsApp1
+﻿namespace Week05
 {
     partial class Form1
     {
