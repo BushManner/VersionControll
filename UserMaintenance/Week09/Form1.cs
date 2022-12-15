@@ -18,7 +18,6 @@ namespace Week09
         List<BirthProbability> BirthProbabilities = new List<BirthProbability>();
         List<DeathProbability> DeathProbabilities = new List<DeathProbability>();
         Random rng = new Random(1234);
-
         public Form1()
         {
             InitializeComponent();
@@ -41,9 +40,7 @@ namespace Week09
                 Console.WriteLine(
                     string.Format("Év:{0} Fiúk:{1} Lányok:{2}", year, nbrOfMales, nbrOfFemales));
             }
-
         }
-
         public List<Person> GetPopulation(string csvpath)
         {
             List<Person> population = new List<Person>();
